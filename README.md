@@ -2,41 +2,31 @@
 
 Static GitHub Pages site for Athanasios Angelakis.
 
+## Structure
+
+```text
+Bluesman79.github.io/
+├── index.html
+├── consultancy.html
+├── README.md
+└── assets/
+    ├── style.css
+    ├── qr-bluesman79-github-pages.png
+    └── CV_Athanasios_Angelakis_20260529.pdf
+```
+
 ## Deploy
 
-1. Create a GitHub repository named exactly:
+Upload all files/folders to the root of the `Bluesman79.github.io` repository.
 
-   `Bluesman79.github.io`
+Then go to:
 
-2. Upload the contents of this folder to the repository root.
+`Settings -> Pages -> Deploy from a branch -> main -> /root`
 
-3. In GitHub, go to:
+Website:
 
-   `Settings -> Pages`
+`https://bluesman79.github.io`
 
-4. Under "Build and deployment", choose:
+## Notes
 
-   `Deploy from a branch`
-
-5. Select:
-
-   `main` branch and `/root`
-
-6. The website will be available at:
-
-   `https://bluesman79.github.io`
-
-## Included
-
-- `index.html`
-- `assets/style.css`
-- `assets/qr-bluesman79-github-pages.png`
-
-## Suggested next edits
-
-Add your:
-- Google Scholar URL
-- ORCID URL
-- LinkedIn URL
-- Headshot photo
-- downloadable CV PDF
+This version is not CVPR-centric. It presents a general academic profile and includes a separate consultancy page.
